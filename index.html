@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body 
+        {
+            text-align: center;
+            place-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            display: flex;
+            background:url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80")
+        }
+        button,input
+        {
+            background-color: #010d0d;
+            color: #f9fbfc;
+            text-decoration: none;
+            width: 200px;
+            text-align: center;
+            padding: 11px 32px;
+            border: solid 1px #004F72;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 10px;
+            font: 17px Georgia, "Times New Roman", Times, serif;
+            font-weight: bold;
+            
+        }
+        div 
+        {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left:345px;
+            background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h2>calculator</h2>
+    <form action="/" method="post">
+        <input type="text" name="num1" value="" placeholder="enter the expression"><br><br><br>
+        <button type="submit" name="submit">Calculator</button>
+    </form>
+    </div>
+</body>
+</html>
